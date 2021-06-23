@@ -1,0 +1,84 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+.heading{
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    /* color: white; */
+    display: none;
+    padding: 80px 20px;
+    min-height: 100%;
+}
+
+#Home {
+    background-color:#457b9d ;
+}
+
+#shining {
+    background-color: #457b9d;
+}
+
+#hound {
+    background-color: #457b9d;
+}
+
+#starWars {
+    background-color: #457b9d;
+}
+
+.post{
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    max-width: 768px;
+    min-width: 250px;
+    margin: 25px auto;
+}
+
+.post-list{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.newspaper-img{
+    width: 300px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    padding: 25px;
+}
+
+.rating{
+    padding-bottom: 10px;
+}
+
